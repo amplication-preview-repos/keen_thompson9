@@ -1,11 +1,18 @@
 import * as React from "react";
-import { Edit, SimpleForm, EditProps, TextInput } from "react-admin";
+import {
+  Edit,
+  SimpleForm,
+  EditProps,
+  TextInput,
+  BooleanInput,
+} from "react-admin";
 
 export const NoteEdit = (props: EditProps): React.ReactElement => {
   return (
     <Edit {...props}>
       <SimpleForm>
         <TextInput label="content" multiline source="content" />
+        <BooleanInput label="isImportant" source="isImportant" />
         <TextInput label="title" source="title" />
       </SimpleForm>
     </Edit>

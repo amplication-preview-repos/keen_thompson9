@@ -20,23 +20,27 @@ const existingId = "existingId";
 const CREATE_INPUT = {
   content: "exampleContent",
   id: "exampleId",
+  isImportant: "true",
   title: "exampleTitle",
 };
 const CREATE_RESULT = {
   content: "exampleContent",
   id: "exampleId",
+  isImportant: "true",
   title: "exampleTitle",
 };
 const FIND_MANY_RESULT = [
   {
     content: "exampleContent",
     id: "exampleId",
+    isImportant: "true",
     title: "exampleTitle",
   },
 ];
 const FIND_ONE_RESULT = {
   content: "exampleContent",
   id: "exampleId",
+  isImportant: "true",
   title: "exampleTitle",
 };
 

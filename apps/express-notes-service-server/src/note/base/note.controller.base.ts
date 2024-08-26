@@ -33,6 +33,7 @@ export class NoteControllerBase {
       select: {
         content: true,
         id: true,
+        isImportant: true,
         title: true,
       },
     });
@@ -48,6 +49,7 @@ export class NoteControllerBase {
       select: {
         content: true,
         id: true,
+        isImportant: true,
         title: true,
       },
     });
@@ -64,6 +66,7 @@ export class NoteControllerBase {
       select: {
         content: true,
         id: true,
+        isImportant: true,
         title: true,
       },
     });
@@ -89,6 +92,7 @@ export class NoteControllerBase {
         select: {
           content: true,
           id: true,
+          isImportant: true,
           title: true,
         },
       });
@@ -114,6 +118,7 @@ export class NoteControllerBase {
         select: {
           content: true,
           id: true,
+          isImportant: true,
           title: true,
         },
       });
